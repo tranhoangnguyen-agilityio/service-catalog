@@ -17,7 +17,7 @@ Resources:
     Properties:
       FunctionName: HelloLambdaFunction
       Role: !GetAtt HelloLambdaRole.Arn
-      Runtime: python3.7
+      Runtime: python3.12
       Handler: index.my_handler
       Code:
         ZipFile: |
